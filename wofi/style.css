@@ -1,21 +1,27 @@
 window {
     margin: 0px;
-    border: 2px solid #5e81ac; /* Uma borda azulada estilo Nordic */
-    background-color: #2e3440; /* Fundo cinza escuro */
+    background-color: transparent;
     font-family: "JetBrains Mono Nerd Font", "Roboto", sans-serif;
     font-size: 16px;
 }
 
+#outer-box {
+  background-color: #D4D4D4;
+  border: 1px solid #BCBCBC;
+  border-radius: 10px;
+}
+
 #input {
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #3b4252;
-    color: #eceff4;
+    margin: 20px 30px;
+    padding: 5px;
+    border: 2px solid #BCBCBC;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #121212;
 }
 
 #inner-box {
-    margin: 10px;
+    margin: 10px 30px;
     background-color: transparent;
 }
 
@@ -25,10 +31,14 @@ window {
 }
 
 #entry:selected {
-    background-color: #88c0d0; /* Cor de destaque */
+    background-color: #333333; /* Cor de destaque */
+}
+
+#text {
+  color: #121212;
 }
 
 #text:selected {
-    color: #2e3440;
+    color: #D4D4D4;
     font-weight: bold;
 }
