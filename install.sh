@@ -6,6 +6,7 @@ link_config() {
   local folder=$1
   local target=$HOME/.config/$folder
 
+  rm -rf $target
   ln -sfn $DOTFILES/$folder $target
 }
 
