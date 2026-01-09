@@ -1,0 +1,62 @@
+/* Reset de estilos */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono Nerd Font", "Cantarell", "Roboto", sans-serif;
+    font-size: 12px;
+    min-height: 0;
+}
+
+/* A barra principal */
+window#waybar {
+    background-color: #121212; /* Preto sólido */
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* Módulos individuais */
+#workspaces button {
+    padding: 0 3px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#workspaces button.active {
+    background-color: #333333; /* Destaque sutil para o workspace ativo */
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#mpd {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+/* Efeito de hover opcional para manter o minimalismo */
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#custom-arch {
+    margin-left: 2px;
+    padding: 0 10px;
+    font-size: 20px;
+    transition: color .5s;
+}
+#custom-arch:hover {
+    color: #1793d1;
+}
