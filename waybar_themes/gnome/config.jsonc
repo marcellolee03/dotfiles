@@ -5,7 +5,7 @@
     "spacing": 5,
     "modules-left": ["custom/arch", "hyprland/workspaces"],
     "modules-center": [],
-    "modules-right": ["pulseaudio", "battery", "network", "tray", "clock"],
+    "modules-right": ["network", "pulseaudio", "battery", "tray", "clock"],
 
     "include": [
     "~/.config/waybar/modules.json"
