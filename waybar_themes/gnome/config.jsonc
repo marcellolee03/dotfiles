@@ -1,0 +1,12 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+    "spacing": 5,
+    "modules-left": ["custom/arch", "hyprland/workspaces"],
+    "modules-right": ["network", "tray", "clock"],
+
+    "include": [
+    "~/.config/waybar/modules.json"
+  ]
+}
